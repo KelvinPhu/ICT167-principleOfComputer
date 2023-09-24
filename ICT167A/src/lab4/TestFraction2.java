@@ -7,7 +7,7 @@ public class TestFraction2 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		ArrayList<Fraction> fraction = new ArrayList<Fraction>();
-		
+
 		while (true) {
 			System.out.println("enter fraction: ");
 			String frac = sc.nextLine();
@@ -22,6 +22,7 @@ public class TestFraction2 {
 			
 			fraction.add(new Fraction(numerator, denominator));
 		}
+		
 		Fraction totalSum = new Fraction(0, 1);
         for (Fraction fraction2 : fraction) {
 			totalSum = totalSum.add(fraction2);
