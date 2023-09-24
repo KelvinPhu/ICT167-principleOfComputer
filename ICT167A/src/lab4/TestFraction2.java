@@ -24,7 +24,7 @@ public class TestFraction2 {
 		}
 		
 		Fraction totalSum = new Fraction(0, 1);
-        for (Fraction fraction2 : fraction) {
+        	for (Fraction fraction2 : fraction) {
 			totalSum = totalSum.add(fraction2);
 		}
 
