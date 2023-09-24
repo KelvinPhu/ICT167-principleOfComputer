@@ -60,7 +60,7 @@ public class Fraction {
 	public int getNumerator() {
 		return numerator;
 	}
-
+	
 	public void setNumerator(int numerator) {
 		this.numerator = numerator;
 	}
