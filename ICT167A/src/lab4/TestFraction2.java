@@ -28,7 +28,7 @@ public class TestFraction2 {
 			totalSum = totalSum.add(fraction2);
 		}
 
-        System.out.println("Total Sum: " + totalSum);
+        	System.out.println("Total Sum: " + totalSum);
 		sc.close();
 	}
 }
