@@ -35,7 +35,6 @@ package lab4;
 //		int newDenominator = this.denominator * other.denominator;
 //		
 //		return new Fraction(newNumerator, newDenominator);
-//		
 //	}
 //	
 //	
