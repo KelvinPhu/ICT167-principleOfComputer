@@ -175,8 +175,8 @@ public class Client {
         System.out.println("10p: " + coinCounts[3]);
         System.out.println("20p: " + coinCounts[4]);
         System.out.println("50p: " + coinCounts[5]);
-        System.out.println("£1: " + coinCounts[6]);
-        System.out.println("£2: " + coinCounts[7]);
+        System.out.println("Â£1: " + coinCounts[6]);
+        System.out.println("Â£2: " + coinCounts[7]);
     }
 
     private static void calculateTotalAmount(ChangeC[] changes) {
