@@ -48,7 +48,7 @@ public class ChangeC {
         if (denomination < 100) {
             return denomination + "p";
         } else {
-            return "£" + (denomination / 100);
+            return "Â£" + (denomination / 100);
         }
     }
 }
